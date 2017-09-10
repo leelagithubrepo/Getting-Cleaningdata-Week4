@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>datasciencecoursera/README.md at master · mGalarnyk/datasciencecoursera</title>
+  <title>datasciencecoursera/CodeBook.md at master · mGalarnyk/datasciencecoursera</title>
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
@@ -36,10 +36,10 @@
     <meta content="https://avatars3.githubusercontent.com/u/11932986?v=4&amp;s=400" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="mGalarnyk/datasciencecoursera" property="og:title" /><meta content="https://github.com/mGalarnyk/datasciencecoursera" property="og:url" /><meta content="datasciencecoursera - Data Science Repo and blog for John Hopkins Coursera Courses. Please let me know if you have any questions." property="og:description" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTkyNjYyOTg1OjYzYTBiODI0N2M2NzdiOWRmMGQxZjU3YjU0OGIzZWI1ZDBhMTIyZDZjZmVkY2FkYmMyMjY1ZDE1MjI5ZjE0OWM=--af3cf8a2f11eaadb47c69359f335e3766e2ef2a4">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTkyNjYyOTg1OjM4YzRjODdlMDA3MWRlOTk5ZTg0YmYyMzA4OGNiMGRiNzg4YjEwMDAwOGU4NzY4NmM2ODI2ZDg3OTRiNWM5ZTc=--3b8db47db4b511089bbe9ac3ab9ee8fc7b4736ca">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="E85F:1621:54C94:8E42E:59B56C6E" data-pjax-transient>
+  <meta name="request-id" content="E85F:1621:54C95:8E42F:59B56C6E" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
@@ -48,7 +48,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="E85F:1621:54C94:8E42E:59B56C6E" name="octolytics-dimension-request_id" /><meta content="sea" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="30137328" name="octolytics-actor-id" /><meta content="leelagithubrepo" name="octolytics-actor-login" /><meta content="a7ef3ce6af0e940cca5bac233d7513145a86dba4d351cc71704b9366cc19aabb" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="E85F:1621:54C95:8E42F:59B56C6E" name="octolytics-dimension-request_id" /><meta content="sea" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="30137328" name="octolytics-actor-id" /><meta content="leelagithubrepo" name="octolytics-actor-login" /><meta content="a7ef3ce6af0e940cca5bac233d7513145a86dba4d351cc71704b9366cc19aabb" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -63,7 +63,7 @@
   <meta name="user-login" content="leelagithubrepo">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="Nzc3OTY0YjdjNzA3NTg0ZmE2NTNiMmU5OWIxYzM5ZGZmOTlmZTE4ZmI2Y2I2NjBkYjU3MmZiMzViNDVhY2I4Mnx7InJlbW90ZV9hZGRyZXNzIjoiNzMuMjIyLjIxMS43MyIsInJlcXVlc3RfaWQiOiJFODVGOjE2MjE6NTRDOTQ6OEU0MkU6NTlCNTZDNkUiLCJ0aW1lc3RhbXAiOjE1MDUwNjE5OTgsImhvc3QiOiJnaXRodWIuY29tIn0=">
+    <meta name="js-proxy-site-detection-payload" content="YjlhNjA5NGU2YTY4MjA3MDg5YjJhODg2YzlmMjE0ZjIxODlmMjQ5Zjk2YTZlN2UyOGFkYTU5MWIyYTcwNmEyOHx7InJlbW90ZV9hZGRyZXNzIjoiNzMuMjIyLjIxMS43MyIsInJlcXVlc3RfaWQiOiJFODVGOjE2MjE6NTRDOTU6OEU0MkY6NTlCNTZDNkUiLCJ0aW1lc3RhbXAiOjE1MDUwNjIwMDUsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER">
 
@@ -80,7 +80,7 @@
   <meta content="11932986" name="octolytics-dimension-user_id" /><meta content="mGalarnyk" name="octolytics-dimension-user_login" /><meta content="77424533" name="octolytics-dimension-repository_id" /><meta content="mGalarnyk/datasciencecoursera" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="77424533" name="octolytics-dimension-repository_network_root_id" /><meta content="mGalarnyk/datasciencecoursera" name="octolytics-dimension-repository_network_root_nwo" /><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
 
 
-    <link rel="canonical" href="https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/CodeBook.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -127,7 +127,7 @@
               <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
   <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/mGalarnyk/datasciencecoursera/search" class="js-site-search-form" data-scoped-search-url="/mGalarnyk/datasciencecoursera/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
     <label class="form-control header-search-wrapper js-chromeless-input-container">
-        <a href="/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/README.md" class="header-search-scope no-underline">This repository</a>
+        <a href="/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/CodeBook.md" class="header-search-scope no-underline">This repository</a>
       <input type="text"
         class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
         data-hotkey="s"
@@ -250,7 +250,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="j3fmHI73+jRpBgDKmB4P+zPbrJLuDlJuGn2FYfRPwr52PzjQjK5xOE+/GRCC13L8zoo99QsfweoI/pkRZVNhCQ==" /></div>
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QzKYx42kvGdAHF5t5Col9KX6H7Z+2BIvKBMbNbqWgCq6ekYLj/03a2alR7f+41jzWKuO0ZvJgas6kAdFK4ojnQ==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -261,7 +261,7 @@
 </ul>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="h+00/j/n0rUKW2wdl1DHSEyaQ/IqsvRDjaFW7eUJBWV+peoyPb5ZuSzidceNmbpPscvSlc+jZ8efIkqddBWm0g==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Ak4zROmaCHafPhDdk0ivahEnFeCLv6IqpJvatZ7cIcH7Bu2I68ODermHCQeJgdJt7HaEh26uMa62GMbFD8CCdg==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -296,7 +296,7 @@
 
         <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2CyBMyeZIGi4TYMm1riYVw600aZnVk6pFpPoKBdhhEQoWKyhQMkLO4Ji9hQbYV5PEVmSgyaAFbu2qquP81hbow==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="77424533" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="791f39WaTT6ZC0qCBbu5IvRy5/QbsArSVDcm+9X++28fqXJNsspmbaMkP7DIYn8665+k0VpmUcD0DmVcMcckiA==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="77424533" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/mGalarnyk/datasciencecoursera/subscription"
@@ -376,7 +376,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/mGalarnyk/datasciencecoursera/unstar" class="starred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="dZZHNhvfs1rJX+mQ3/LOnhGaBxYtvZbxHXCsljq5iex1BTT/8/ZFBvxvg0HyaZhjgtdhxzSM34WrxO56QwWugw==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/mGalarnyk/datasciencecoursera/unstar" class="starred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="aGP6lj7BUQ3pWXJbl0du3jLSgnu+YKIaWOGGqXoBQIBo8Ilf1uinUdxpGIq63DgjoZ/kqqdR627uVcRFA71n7w==" /></div>
       <button
         type="submit"
         class="btn btn-sm btn-with-count js-toggler-target"
@@ -390,7 +390,7 @@
           39
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/mGalarnyk/datasciencecoursera/star" class="unstarred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="6fZWWre5RUjdU+ZqEGxfa1CbzLhCBUtGuMVxpc6874hSkuKl8Rx3pJ5xM9c4FodmGRIU6i8c/lMgtWvXHTjZtw==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/mGalarnyk/datasciencecoursera/star" class="unstarred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="UeuDzVMUyt7YmHSbPxokSjShdZKdoU9O9wuoqvPyX6rqjzcyFbH4Mpu6oSYXYPxHfSitwPC4+ltve7LYIHZplQ==" /></div>
       <button
         type="submit"
         class="btn btn-sm btn-with-count js-toggler-target"
@@ -408,7 +408,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/mGalarnyk/datasciencecoursera/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="c3ZLHti6+Q3ABo17/cTQZzQtcl6Pf5M8ljD1xiQdsHgZi39jjjppMJvEE+jRA5HljiGLiGNSlGXKI5KkqeqTgw==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/mGalarnyk/datasciencecoursera/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="3s6mWAfsFy5rM11VYMwkTXasPFcWjo7HbL75yo13TOG0M5IlUWyHEzDxw8ZMC2XPzKDFgfqjiZ4wrZ6oAIBvGg==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -503,9 +503,9 @@
   <div class="repository-content">
 
     
-  <a href="/mGalarnyk/datasciencecoursera/blob/e2c980456693fe8c9a9267d0b1cba511d1aca06b/3_Getting_and_Cleaning_Data/projects/README.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+  <a href="/mGalarnyk/datasciencecoursera/blob/e2c980456693fe8c9a9267d0b1cba511d1aca06b/3_Getting_and_Cleaning_Data/projects/CodeBook.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:389c163a94881634d15fd4c5fa7171df -->
+  <!-- blob contrib key: blob_contributors:v21:51d488aeeaba45950b5f9e1947f5dfcf -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -547,7 +547,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/README.md"
+               href="/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/CodeBook.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -584,7 +584,7 @@
       <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
     </div>
     <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/mGalarnyk/datasciencecoursera"><span>datasciencecoursera</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/mGalarnyk/datasciencecoursera/tree/master/3_Getting_and_Cleaning_Data"><span>3_Getting_and_Cleaning_Data</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/mGalarnyk/datasciencecoursera/tree/master/3_Getting_and_Cleaning_Data/projects"><span>projects</span></a></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/mGalarnyk/datasciencecoursera"><span>datasciencecoursera</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/mGalarnyk/datasciencecoursera/tree/master/3_Getting_and_Cleaning_Data"><span>3_Getting_and_Cleaning_Data</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/mGalarnyk/datasciencecoursera/tree/master/3_Getting_and_Cleaning_Data/projects"><span>projects</span></a></span><span class="separator">/</span><strong class="final-path">CodeBook.md</strong>
     </div>
   </div>
 
@@ -592,15 +592,15 @@
   
   <div class="commit-tease">
       <span class="float-right">
-        <a class="commit-tease-sha" href="/mGalarnyk/datasciencecoursera/commit/b9d24e1a652e7927a42a6f4025592cc94cc37a28" data-pjax>
-          b9d24e1
+        <a class="commit-tease-sha" href="/mGalarnyk/datasciencecoursera/commit/c6860be5e015551f9eba5864f0df900a4fb20d69" data-pjax>
+          c6860be
         </a>
-        <relative-time datetime="2017-03-01T07:33:03Z">Mar 1, 2017</relative-time>
+        <relative-time datetime="2017-02-27T22:19:09Z">Feb 28, 2017</relative-time>
       </span>
       <div>
         <img alt="@mGalarnyk" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/11932986?v=4&amp;s=40" width="20" />
         <a href="/mGalarnyk" class="user-mention" rel="author">mGalarnyk</a>
-          <a href="/mGalarnyk/datasciencecoursera/commit/b9d24e1a652e7927a42a6f4025592cc94cc37a28" class="message" data-pjax="true" title="Update README.md">Update README.md</a>
+          <a href="/mGalarnyk/datasciencecoursera/commit/c6860be5e015551f9eba5864f0df900a4fb20d69" class="message" data-pjax="true" title="data science coursera">data science coursera</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -628,9 +628,9 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a href="/mGalarnyk/datasciencecoursera/raw/master/3_Getting_and_Cleaning_Data/projects/README.md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/mGalarnyk/datasciencecoursera/blame/master/3_Getting_and_Cleaning_Data/projects/README.md" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
-      <a href="/mGalarnyk/datasciencecoursera/commits/master/3_Getting_and_Cleaning_Data/projects/README.md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+      <a href="/mGalarnyk/datasciencecoursera/raw/master/3_Getting_and_Cleaning_Data/projects/CodeBook.md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/mGalarnyk/datasciencecoursera/blame/master/3_Getting_and_Cleaning_Data/projects/CodeBook.md" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/mGalarnyk/datasciencecoursera/commits/master/3_Getting_and_Cleaning_Data/projects/CodeBook.md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -640,12 +640,12 @@
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/mGalarnyk/datasciencecoursera/edit/master/3_Getting_and_Cleaning_Data/projects/README.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="GJF/nab/QOpKgYNYJGG8EJPWXhreYCcCKkEygr5JsxhKsiZp+tb3wmgHZ7llCKBIF0Efh06+KQiU/nZ7ZjHqWQ==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/mGalarnyk/datasciencecoursera/edit/master/3_Getting_and_Cleaning_Data/projects/CodeBook.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="jy7WtfprHUz6yVMAJCK8NPQMuQHxtNIe5Te6G2MLlOwBkREovGqhoj4Jye+SqLqZqOl1o2KPH+ChpGlGZDE+GQ==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
           </button>
-</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/mGalarnyk/datasciencecoursera/delete/master/3_Getting_and_Cleaning_Data/projects/README.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="UxmsS2zThguZSomYct3a3NKKVy8BTTM+ySU24ebndruho0mFKEYmtphZKxhj2mM31yUZTz3WaACI1NnPPfHI1g==" /></div>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/mGalarnyk/datasciencecoursera/delete/master/3_Getting_and_Cleaning_Data/projects/CodeBook.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="SnQzDdvV6/XAYQWzYVbGOVVuT/kR8FDfKDWhF4A1dPv51bbY6QBTI9+FhiggL1FmSnMhws5ro+o47lrK8DNolw==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -653,86 +653,38 @@
 </form>  </div>
 
   <div class="file-info">
-      40 lines (28 sloc)
+      30 lines (22 sloc)
       <span class="file-info-divider"></span>
-    2.54 KB
+    2.67 KB
   </div>
 </div>
 
     
   <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-getting-and-cleaning-data-project" class="anchor" href="#getting-and-cleaning-data-project" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting and Cleaning Data Project</h1>
-<p>Author: Michael Galarnyk <br>
-Blog Post: <a href="https://medium.com/@GalarnykMichael/review-course-1-the-data-scientists-toolbox-jhu-coursera-4d7459458821#.5jpg133ln" title="Click to go to Repo">Getting and Cleaning Data Review</a> <br>
-Data Zip File Location: <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" title="Clicking will download the data">UC Irvine Repo</a></p>
-<h2><a id="user-content-goal-of-the-project" class="anchor" href="#goal-of-the-project" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Goal of the Project</h2>
-<ol>
-<li>A tidy data set</li>
-<li>A link to a Github repository with your script for performing the analysis</li>
-<li>A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.</li>
-<li>Analysis R Script</li>
-</ol>
-<h2><a id="user-content-review-criteria" class="anchor" href="#review-criteria" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Review Criteria</h2>
-<table>
-<thead>
-<tr>
-<th>Goal</th>
-<th>Item</th>
-<th>Link to Item</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Analysis R Script</td>
-<td>run_analysis.R</td>
-<td><a href="https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/run_analysis.R" title="run_analysis.R">R Script Link</a></td>
-</tr>
-<tr>
-<td>Tidy Data Set</td>
-<td>Clean Data Set</td>
-<td><a href="https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/data/tidyData.txt" title="tidyData.txt">Data Set Link</a></td>
-</tr>
-<tr>
-<td>Github Repo</td>
-<td>Repo</td>
-<td><a href="https://github.com/mGalarnyk/datasciencecoursera/tree/master/3_Getting_and_Cleaning_Data" title="Click to go to Repo">Repo Link</a></td>
-</tr>
-<tr>
-<td>Cookbook</td>
-<td>CodeBook.md</td>
-<td><a href="https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/CodeBook.md" title="CodeBook.md">Repo Link</a></td>
-</tr>
-<tr>
-<td>README</td>
-<td>ReadingItNow</td>
-<td><a href="https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/README.md" title="README.md">Repo Link</a></td>
-</tr></tbody></table>
-<h2><a id="user-content-contributors" class="anchor" href="#contributors" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributors</h2>
-<table>
-<thead>
-<tr>
-<th>FirstName</th>
-<th>LastName</th>
-<th>Email</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Michael</td>
-<td>Galarnyk</td>
-<td><a href="mailto:mgalarny@gmail.com">mgalarny@gmail.com</a></td>
-</tr>
-<tr>
-<td>Submit</td>
-<td>Pull Request</td>
-<td><a href="mailto:youremailhere@gmail.com">youremailhere@gmail.com</a></td>
-</tr></tbody></table>
-<h2><a id="user-content-license" class="anchor" href="#license" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
-<p>Anyone may contribute after this assignment is turned in and graded.</p>
-<h2><a id="user-content-blog-posts-on-the-specialization--john-hopkins-coursera" class="anchor" href="#blog-posts-on-the-specialization--john-hopkins-coursera" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Blog Posts on the Specialization | John Hopkins Coursera</h2>
-<p><a href="https://medium.com/@GalarnykMichael/getting-and-cleaning-data-jhu-coursera-course-3-c3635747858b#.y93kqfa0u" title="Review + data.table">Getting and Cleaning Data (JHU Coursera)</a></p>
-<p><a href="https://medium.com/@GalarnykMichael/in-progress-review-course-2-r-programming-jhu-coursera-ad27086d8438#.bzzr29fvo" title="Review + data.table">R Programming (JHU Coursera)</a></p>
-<p><a href="https://medium.com/@GalarnykMichael/review-course-1-the-data-scientists-toolbox-jhu-coursera-4d7459458821#.5jpg133ln" title="Review + Going over Parts of Quiz">The Data Scientist’s Toolbox (JHU Coursera)</a></p>
+    <article class="markdown-body entry-content" itemprop="text"><h2><a id="user-content-getting-and-cleaning-data-project" class="anchor" href="#getting-and-cleaning-data-project" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting and Cleaning Data Project</h2>
+<p>Author: Michael Galarnyk</p>
+<h3><a id="user-content-description" class="anchor" href="#description" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Description</h3>
+<p>Additional information about the variables, data and transformations used in the course project for the Johns Hopkins Getting and Cleaning Data course.</p>
+<h3><a id="user-content-source-data" class="anchor" href="#source-data" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Source Data</h3>
+<p>Data + Description can be found here <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">UCI Machine Learning Repository</a></p>
+<h3><a id="user-content-data-set-information" class="anchor" href="#data-set-information" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data Set Information</h3>
+<p>The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.</p>
+<p>The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.</p>
+<h3><a id="user-content-attribute-information" class="anchor" href="#attribute-information" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Attribute Information</h3>
+<p>For each record in the dataset it is provided:</p>
+<ul>
+<li>Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.</li>
+<li>Triaxial Angular velocity from the gyroscope.</li>
+<li>A 561-feature vector with time and frequency domain variables.</li>
+<li>Its activity label.</li>
+<li>An identifier of the subject who carried out the experiment.</li>
+</ul>
+<h2><a id="user-content-please-see-the-readmemd-for-how-the-following-instructions-are-implemented-readmemd" class="anchor" href="#please-see-the-readmemd-for-how-the-following-instructions-are-implemented-readmemd" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Please see the README.md for how the following instructions are implemented <a href="https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/README.md">README.md</a></h2>
+<h3><a id="user-content-1-merge-the-training-and-the-test-sets-to-create-one-data-set" class="anchor" href="#1-merge-the-training-and-the-test-sets-to-create-one-data-set" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Merge the training and the test sets to create one data set.</h3>
+<h3><a id="user-content-2-extracts-only-the-measurements-on-the-mean-and-standard-deviation-for-each-measurement" class="anchor" href="#2-extracts-only-the-measurements-on-the-mean-and-standard-deviation-for-each-measurement" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Extracts only the measurements on the mean and standard deviation for each measurement.</h3>
+<h3><a id="user-content-3-uses-descriptive-activity-names-to-name-the-activities-in-the-data-set" class="anchor" href="#3-uses-descriptive-activity-names-to-name-the-activities-in-the-data-set" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. Uses descriptive activity names to name the activities in the data set</h3>
+<h3><a id="user-content-4-appropriately-labels-the-data-set-with-descriptive-variable-names" class="anchor" href="#4-appropriately-labels-the-data-set-with-descriptive-variable-names" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4. Appropriately labels the data set with descriptive variable names.</h3>
+<h3><a id="user-content-5-from-the-data-set-in-step-4-creates-a-second-independent-tidy-data-set-with-the-average-of-each-variable-for-each-activity-and-each-subject" class="anchor" href="#5-from-the-data-set-in-step-4-creates-a-second-independent-tidy-data-set-with-the-average-of-each-variable-for-each-activity-and-each-subject" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.</h3>
 </article>
   </div>
 
@@ -758,7 +710,7 @@ Data Zip File Location: <a href="https://d396qusza40orc.cloudfront.net/getdata%2
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2017 <span title="0.15844s from unicorn-1951499593-35g9v">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2017 <span title="0.16920s from unicorn-837911874-k59dv">GitHub</span>, Inc.</li>
         <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>

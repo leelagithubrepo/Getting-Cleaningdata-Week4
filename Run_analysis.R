@@ -1,6 +1,6 @@
-#install.packages("data.table")
-#install.packages("reshape2")
+## Ensures that all non-standard R packages (dplyr, reshpae) are installed
 
+##  Downloads the original dataset and verifies its content
 packages <- c("data.table", "reshape2")
 sapply(packages, require, character.only=TRUE, quietly=TRUE)
 path <- getwd()
@@ -8,7 +8,7 @@ url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR
 download.file(url, file.path(path, "dataFiles.zip"))
 unzip(zipfile = "dataFiles.zip")
 
-# Load activity labels + features
+# Loads activity and label names datasets
 activityLabels <- fread(file.path(path, "UCI HAR Dataset/activity_labels.txt")
                         , col.names = c("classLabels", "activityName"))
 features <- fread(file.path(path, "UCI HAR Dataset/features.txt")
@@ -17,7 +17,7 @@ featuresWanted <- grep("(mean|std)\\(\\)", features[, featureNames])
 measurements <- features[featuresWanted, featureNames]
 measurements <- gsub('[()]', '', measurements)
 
-# Load train datasets
+#  Loads training and test datasets and enhances column names with appropriate labels
 train <- fread(file.path(path, "UCI HAR Dataset/train/X_train.txt"))[, featuresWanted, with = FALSE]
 data.table::setnames(train, colnames(train), measurements)
 trainActivities <- fread(file.path(path, "UCI HAR Dataset/train/Y_train.txt")
@@ -35,10 +35,10 @@ testSubjects <- fread(file.path(path, "UCI HAR Dataset/test/subject_test.txt")
                       , col.names = c("SubjectNum"))
 test <- cbind(testSubjects, testActivities, test)
 
-# merge datasets
+# Merges the testing and the test datasets using dplyr's support for method chaining (pipe operator)
 combined <- rbind(train, test)
 
-# Convert classLabels to activityName basically. More explicit. 
+#  Saves the tidy dataset as tidy_data.txt and tidy_data.csv so that it can be easily imported and viewed
 combined[["Activity"]] <- factor(combined[, Activity]
                                  , levels = activityLabels[["classLabels"]]
                                  , labels = activityLabels[["activityName"]])

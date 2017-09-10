@@ -82,10 +82,17 @@ Feature name adjustment example:
 etc.
 
 The transformations are achieved by the script called run_analysis.R, which:
+
   Ensures that all non-standard R packages (reshape2) are installed
+  
   Downloads the original dataset and verifies its content
+  
   Loads activity and label names datasets
+  
   Loads training and test datasets and enhances column names with appropriate labels
+  
   Merges the testing and the test datasets using dplyr's support for method chaining (pipe operator)
+  
   Creates an independent tidy dataset based on mean and standard deviations
+  
   Saves the tidy dataset as tidy_data.txt and tidy_data.csv so that it can be easily imported and viewed

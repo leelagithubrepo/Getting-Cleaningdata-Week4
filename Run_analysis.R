@@ -1,4 +1,4 @@
-## Ensures that all non-standard R packages (dplyr, reshpae) are installed
+## Ensures that all non-standard R packages are installed
 
 ##  Downloads the original dataset and verifies its content
 packages <- c("data.table", "reshape2")

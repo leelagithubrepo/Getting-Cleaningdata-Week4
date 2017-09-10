@@ -1,12 +1,15 @@
 
 Data Source Details
+
 Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Information provided by the authors: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Data Set Information
+
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data
 
 Measurements
+
 The following sensor signals were captured using the smartphone's embedded accelerometer and gyroscope:
 1. three-axial linear acceleration
 2. three-axial angular velocity at a constant rate of 50Hz
@@ -14,6 +17,7 @@ The following sensor signals were captured using the smartphone's embedded accel
 The captured signals were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See the section 'Feature Selection' below, also the file 'features_info.txt' has complete details.
 
 Feature Selection
+
 The features selected for this database come from the accelerometer and gyroscope three-axial raw signals tAcc-XYZ and tGyro-XYZ.
 
 The time domain signals were captured at a constant rate of 50 Hz, prefix 't' denotes time
@@ -78,8 +82,7 @@ Feature name adjustment example:
 etc.
 
 The transformations are achieved by the script called run_analysis.R, which:
-  Ensures that all non-standard R packages (dplyr, reshape2) are installed
-  Defines a number of helper functions to promote code reuse
+  Ensures that all non-standard R packages (reshape2) are installed
   Downloads the original dataset and verifies its content
   Loads activity and label names datasets
   Loads training and test datasets and enhances column names with appropriate labels

@@ -46,8 +46,8 @@ fBodyGyroMag
 fBodyGyroJerkMag
 
 That leaves us with the following set of signals, suffix '-XYZ' denotes three-axial signals in the X, Y and Z directions:
-  tBodyAcc-XYZ
-  tGravityAcc-XYZ
+  <br>tBodyAcc-XYZ
+  <br>tGravityAcc-XYZ
   tBodyAccJerk-XYZ
   tBodyGyro-XYZ
   tBodyGyroJerk-XYZ

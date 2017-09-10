@@ -95,4 +95,4 @@ The transformations are achieved by the script called run_analysis.R, which:
   
   Creates an independent tidy dataset based on mean and standard deviations
   
-  Saves the tidy dataset as tidy_data.txt and tidy_data.csv so that it can be easily imported and viewed
+  Saves the tidy dataset as tidydata.txt and tidydata.csv so that it can be easily imported and viewed
